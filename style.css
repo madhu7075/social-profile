@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0px;
+}
+.body {
+	width: 100vw;
+	height: 100vh;
+	background-color: hsl(0, 0%, 8%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.middle {
+	width: 23%;
+	height: 70%;
+	background-color: hsl(0, 0%, 12%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 14px;
+	padding: 15px;
+}
+.profile {
+	width: 40%;
+	height: 20%;
+	/* background-color: blue; */
+}
+.pic {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.text {
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+.name-loc {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+}
+.name {
+	font-size: 21px;
+	text-align: center;
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+}
+.location {
+	font-size: 13px;
+	text-align: center;
+	color: hsl(75, 94%, 57%);
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+}
+.about {
+	text-align: center;
+	font-size: 12px;
+	font-family: "Inter", sans-serif;
+	color: rgb(255, 255, 255);
+}
+.btns {
+	padding: 3px 10px;
+	height: 58%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	/* background-color: royalblue; */
+	justify-content: center;
+	gap: 10px;
+}
+.btn {
+	width: 100%;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+	background-color: hsl(0, 0%, 20%);
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+}
